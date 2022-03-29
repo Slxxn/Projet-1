@@ -1,0 +1,129 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}  
+
+.hautdepage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.hautdepage img.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    block-size: 3.5rem;
+}
+
+.hautdepage ul {
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    padding: 0;
+}
+
+.hautdepage ul li{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.hautdepage ul li a{
+    text-decoration: none;  
+    align-items: center; 
+    color: black;
+    font-weight: 800;
+}
+
+.hautdepage ul li a img{
+    margin: 4px;
+    margin-top: 7px;
+}
+
+.bouton{
+    flex-direction: row;
+    margin-right: 30px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.bouton a{
+    margin: 5px;
+    margin-top: 3px;
+}
+
+.btn1{
+    background-color:black;
+    color: #fff;
+    font-weight: 550;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.btn2{
+    background-color:#2f632f;
+    color: #fff;
+    font-weight: 550;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px 100px;
+   
+}
+
+.image img{
+    block-size: 25em;
+    margin-left: 20px;
+}
+
+.textcontainer h1{
+    font-weight: 900;
+    font-size: 65px;
+}
+
+.textcontainer h4{
+    color: #636363;
+}
+
+.financial{
+    display: flex;
+    justify-content: center;
+}
+
+.financial h1{
+    font-size: 40px ;
+    margin: 30px 110px;
+    text-align: center;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row ;
+    margin: 30px;
+}
+
+.item{
+    margin: 15px;
+}
+
+.item h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item h5{
+    color: #636363;
+    font-size: 15px;
+}
